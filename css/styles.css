@@ -52,6 +52,11 @@ body{
   text-align: left;
 }
 
+.span-style{
+  background-color: var(--dark-gray);
+  color: var(--secondary-color);
+}
+
 /*profile Protrait--index.html*/
 .profile__portrait{
   float: left;
