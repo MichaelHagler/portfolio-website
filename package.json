@@ -1,0 +1,15 @@
+{
+  "name": "assignment-1-portfolio",
+  "version": "1.0.0",
+  "description": "<h2>My Portfolio Website</h2>",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./css/input.css -o ./src/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
