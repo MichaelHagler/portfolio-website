@@ -1,76 +1,107 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Michael Hagler</title>
+    <link rel="shortcut icon" href="/images/favicon-16x16.png" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.production.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Michael Hagler</title>
-  <link rel="shortcut icon" href="/images/favicon-16x16.png">
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/styles.production.css">
-  <link rel="stylesheet" href="styles.css">
-</head>
+  <!--top of page-->
 
-<!--top of page-->
+  <body>
+    <!--top navi -->
+    <header class="page-header">
+      <img
+        src="/images/mkh-logo.png"
+        alt="Personal logo of Michael Hagler"
+        class="page-header__item"
+      />
+      <!--Navigation list-->
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a
+              href="index.html"
+              class="navigation-list__item navigation-list__item--active"
+              role="menuitem"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="about.html" class="navigation-list__item" role="menuitem"
+              >About Me</a
+            >
+          </li>
+          <li>
+            <a href="work.html" class="navigation-list__item" role="menuitem"
+              >Work</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="contact.html" class="navigation-list__item" role="menuitem"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <!--top navi -->
-  <header class="page-header">
-    <img src="/images/mkh-logo.png" alt="Personal logo of Michael Hagler" class="page-header__item">
-    <!--Navigation list-->
-    <nav class="main-navigation page-header__item">
-      <ul role="menubar" class="navigation-list">
-        <li role="presentation">
-          <a href="index.html" class="navigation-list__item navigation-list__item--active" role="menuitem">Home</a>
-        </li>
-        <li role="presentation">
-          <a href="about.html" class="navigation-list__item" role="menuitem">About Me</a>
-        </li>
-        <li>
-          <a href="work.html" class="navigation-list__item" role="menuitem">Work</a>
-        </li>
-        <li role="presentation">
-          <a href="contact.html" class="navigation-list__item" role="menuitem">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-
-  <!--main section -->
-  <div class="flex">
-    <!--add image of me-->
-    <div></div>
-      <img class="profile__portrait" src="/images/profile-picture.JPG"  alt="Michael Hagler portrait">
+    <!--main section -->
+    <div class="profile">
+      <div>
+        <img
+          class="profile__portrait"
+          src="/images/profile-picture.JPG"
+          alt="Michael Hagler portrait"
+        />
+      </div>
+      <h1 class="text-center">Michael Hagler</h1>
+      <p class="intro">
+        Creating something from nothing in a digital space has unlocked my
+        creativity and put me on my path to web development. HTMl, CSS, and
+        JavaScript was just the tip on the ice berg. I have upgraded my skills
+        by learning frameworks, like React and Angular. I have built APIs from
+        scratch, and I learned that this rabbit hole of coding is where I want
+        to dive into. Take the leap with me and discover my potential.
+      </p>
+        <a href="https://github.com/MichaelHagler" target="_blank">
+          Check out some of my code!
+        </a>
     </div>
-    <h1 class="text-center">Hello World!</h1>
-    <p>My name is Michael Hagler. I am a <span class="span-style">web</span> developer from the United States.</p>
-    <a href="https://github.com/MichaelHagler" target="_blank">Check out some of my code!</a>
-  </div>
 
-  <!--footer-->
-  <footer class="page-footer">
-    <p>Find me on</p>
-    <div class="social-media">
-      <a
-        href="https://github.com/MichaelHagler?tab=repositories"
-        target="_blank"
-      >
-        <img src="images/GitHub-icon.svg" alt="Github" />
-      </a>
+    <!--footer-->
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div class="social-media">
+        <a
+          href="https://github.com/MichaelHagler?tab=repositories"
+          target="_blank"
+        >
+          <img src="images/GitHub-icon.svg" alt="Github" />
+        </a>
 
-      <a
-        href="https://www.linkedin.com/in/michael-hagler-4541521b7/"
-        target="_blank"
-      >
-        <img src="images/LinkedIn-icon.svg" alt="LinkedIn" />
-      </a>
-    </div>
-  </footer>
-  <!--Tota11y add on-->
-  <script src="js/tota11y.min.js"></script>
-</body>
-
+        <a
+          href="https://www.linkedin.com/in/michael-hagler-4541521b7/"
+          target="_blank"
+        >
+          <img src="images/LinkedIn-icon.svg" alt="LinkedIn" />
+        </a>
+      </div>
+    </footer>
+    <!--Tota11y add on-->
+    <script src="js/tota11y.min.js"></script>
+  </body>
 </html>

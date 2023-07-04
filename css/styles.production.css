@@ -123,6 +123,7 @@ a:active {
 
 .navigation-list__item--active {
   text-decoration: none;
+  
 }
 
 /*footer*/
@@ -136,13 +137,19 @@ a:active {
 /*profile body--index.html*/
 .profile {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  min-height: 20vh;
   max-width: 700px;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   border-radius: 2rem;
-  
 }
+
+.intro{
+  font-size: large;
+}
+
 .connect-container {
   min-height: 20vh;
   display: flex;
@@ -166,9 +173,15 @@ a:active {
 
 /*profile Protrait--index.html*/
 .profile__portrait {
-  float: left;
-  width: 250px;
+  /*float: left;*/
+  max-width: 400px;
   margin: 0 40px;
+  border-radius: 50%;
+}
+
+.text-center:hover{
+  transition: 0.5s;
+  background-color: hsl(184, 91%, 23%, 0.9);
   border-radius: 50%;
 }
 
