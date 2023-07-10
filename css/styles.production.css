@@ -261,15 +261,16 @@ a:active {
   width: 400px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 20%;
-  margin-right: 20px;
+  margin: 20px 20px 20px 20px;
   float: left;
 }
 
 .grid-img-right{
-  height: 400px;
-  width: 400px;
+  height: 500px;
+  width: 500px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 20%;
+  margin: 20px 20px 20px 20px;
   float: right;
 }
 
@@ -286,6 +287,8 @@ a:active {
     width: auto;
     min-height: auto;
     margin: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
   }
 }
 
